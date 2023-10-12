@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html class="full-height" lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="icon" type="image/png" href="../images/favicomatic/favicon-32x32.png" sizes="32x32" />
+    <title>Planos Empresariais | Link Telecom</title>
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/udm3mbw.css">
+    <link rel="stylesheet" href="https://use.typekit.net/udm3mbw.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/mdb.min.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body aria-busy="true" style="background-color: #f2f2f2;">
+    
+    <!-- cabeçalho -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar" style="background-color: #2E62B4;">
+            <a class="navbar-brand" href="paginaInicial.html" target="_blank">
+                <img alt="Link Telecom" src="../images/logo/logo_250x80.png" class="img_logo">
+            </a>
+        
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light" href="paginaInicial.html">
+                            Página Incial <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light" href="paginaInicial.html">
+                            Quem somos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light" href="paginaInicial.html">
+                            Planos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light" href="paginaInicial.html">
+                            Endereço
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light" href="paginaInicial.html">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+        
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                    <a href="areaDoCliente.html" class="nav-link waves-effect waves-light">
+                        <i class="far fa-user"></i> Área do cliente
+                    </a>
+                </ul>
+        
+            </div>
+        </nav>
+    </header>
+
+    <section id="plano-empresarial">
+        <div class="container-fluid d-flex p0">
+
+            <div class="col-md-6 mt-5 p-5">
+
+                <div class="container" style="padding: 3rem 3rem 0rem 3rem;">
+                    <h1 class="display-4 text-center grey-text"><strong>Planos empresariais</strong></h1>
+                    <p class="mb-4 d-none d-md-block text-center grey-text">
+                        Solicite uma proposta que melhor se adeque as necessidades de sua empresa.
+                    </p>
+                </div>
+
+                <div class="formulario">
+                    <form action="../php/enviaEmailOrcamentoEmpresarial.php" method="POST">
+                        <div class="form-row">
+                            <div class="col">
+                                <div class="md-form">
+                                    <input type="text" id="nome_empresa" name="nome_empresa" class="form-control">
+                                    <label for="nome_empresa">Empresa</label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="md-form">
+                                    <input type="text" id="nome_contato" name="nome_contato" class="form-control">
+                                    <label for="nome_contato">Nome</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <div class="md-form">
+                                    <input type="email" id="email" name="email" class="form-control">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="md-form">
+                                    <input type="text" id="contato" name="contato" class="form-control">
+                                    <label for="contato">Contato</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <div class="md-form">
+                                    <textarea id="mensagem" name="mensagem" class="form-control md-textarea" rows="3"></textarea>
+                                    <label for="mensagem">Message</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row" style="margin-bottom: 5%; margin-top: 3%;">
+                            <div class="col">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="contato_whats" name="contato_whats">
+                                    <label class="custom-control-label" for="contato_whats">Desejo receber contato através do whatsapp</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="col">
+                                <button class="btn btn-padrao btn-block my-4" type="submit">Enviar</button>
+                            </div>
+                        </div>
+
+                        <div class="form-row mt-5">
+                            <div class="centraliza">
+                                <a type="button" class="btn-redes-sociais mx-2">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a type="button" class="btn-redes-sociais mx-2">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 background-plano-empresarial">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small cyan darken-3">
+        <div class="container">
+            <div class="row margin-lateral-0">
+                <div class="col-md-12 py-5">
+                    <div class="mb-5 flex-center">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic" href="https://www.facebook.com/linktelecomoficial/?epa=SEARCH_BOX" target="_blank">
+                            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic" href="https://www.instagram.com/linktelecom.fortaleza/" target="_blank">
+                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+
+                        <!-- whatsapp -->
+                        <a class="ins-ic" href="http://api.whatsapp.com/send?1=pt_BR&phone=5585988142011" target="_blank">
+                            <i class="fab fa-whatsapp fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        
+                        <!-- telefone -->
+                        <a class="ins-ic" href="tel:558540420778" target="_blank">
+                            <i class="fas fa-phone fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    
+        <div class="container text-center text-md-left">
+            <div class="row margin-lateral-0">
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <h5 class="text-uppercase font-weight-bold text-center">Atendimento por whatsapp</h5>
+                    <p class="text-center">
+                        Para maior praticidade você pode nos contatar pelo whatsapp através do número é <br>(85) 98814-2011
+                    </p>
+                </div>
+    
+                <hr class="clearfix w-100 d-md-none pb-3">
+                
+                <div class="col-md-6 mb-md-0 mb-3">
+                    <h5 class="text-uppercase font-weight-bold text-center">Central Telefonica</h5>
+                    <p class="text-center">
+                        Mas se preferir atendimento por telefone o número de nossa central é (85) 40420778
+                    </p>
+                </div>
+    
+            </div>
+    
+        </div>
+    
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="paginaInicial.html"> Link Telecom</a>
+        </div>
+    
+    </footer>
+    <!-- Footer -->
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../js/popper.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/mdb.min.js"></script>
+    <script>
+        wow = new WOW().init();
+    </script>
+    <script type="text/javascript" src="../js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="../js/planosEmpresariais.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+body {
+    /* Dagny Pro Light */
+    font-family: ff-dagny-web-pro,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.img_logo {
+    width: 7.0rem;
+}
+
+.navbar.scrolling-navbar {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+}
+
+.navbar-brand {
+    margin-right: 2.5rem;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    margin-top: 15px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem;
+}
+
+.p0 {
+    padding: 0px;
+}
+
+.grey-text {
+    color: #818181 !important;
+}
+
+.margin-lateral-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#areaDoAdministrador h1 {
+    font-family: ff-dagny-web-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 2rem;
+    color: #2e62b4;
+}
+
+#areaDoAdministrador hr {
+    margin-top: 0.5rem;
+    margin-bottom: 5rem;
+    border-top: 3px solid rgb(46, 98, 180);
+}
+
+.btn-padrao {
+    background-color: #2E62B4;
+    color: #ffffff !important;
+}
+
+.centraliza {
+    float: none;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+/* responsive desktop */
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .background_inicial {
+        background-image: url('../images/banner/banner_inicial_1366-min.png');
+    }
+}
+
+/*Responsive mobile*/
+@media (max-width: 414px){
+    .background_inicial {
+        background-image: url('../images/banner/banner_inicial_750x1334-min.png');
+    }
+}

@@ -1,0 +1,342 @@
+body {
+    /* Dagny Pro Light */
+    font-family: ff-dagny-web-pro,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.background_inicial h1,
+.background_inicial h2,
+.background_inicial p,
+.background_inicial a {
+    /* Dagny Pro Regular */
+    font-family: ff-dagny-web-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.background_inicial h2 {
+    font-size: 2.5rem;
+}
+
+.background_inicial {
+    background-image: url('../images/banner/banner_inicial_1920x1080-min.png'); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100vh;
+}
+
+.rgba-black-light, .rgba-black-light::after {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.img_logo {
+    width: 7.0rem;
+}
+
+.navbar.scrolling-navbar {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+}
+
+.navbar-brand {
+    margin-right: 2.5rem;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    margin-top: 15px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem;
+}
+
+.p0 {
+    padding: 0px;
+}
+
+.grey-text {
+    color: #818181 !important;
+}
+
+#quem_somos h1 {
+    /* Dagny Pro Regular */
+    font-family: ff-dagny-web-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#quem_somos h1 {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.text-size-pattern {
+    font-size: 1.5rem;
+}
+
+.img-100 {
+    width: 100%;
+}
+
+.top-nav-collapse {
+    background-color: #5d036d;
+}
+
+/* inicio da sessão dos planos */
+
+#planos h1 {
+    color: #ba0fae;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#planos {
+    background-color: #ffeb00;
+}
+
+.pricing-table {
+    margin-top: 50px;
+    border: 0.3rem solid #ffffff;
+    color: #ffffff;
+}
+
+.pricing-table.fk {
+    margin-top: 0px;
+}
+
+.pricing-table .pricing-header {
+    position: relative;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.pricing-table .pricing-header i {
+    color: #ffffff;
+}
+
+.pricing-table .pricing-header .gd {
+    font-size: 60px;
+    line-height: 60px;
+}
+.pricing-table .pricing-header .gd .hm, 
+.pricing-table .pricing-header .gd .ic {
+    font-weight: 300;
+    margin: 0 -10px;
+    font-size: 20px;
+    line-height: 42px;
+    vertical-align: text-top;
+}
+
+.pricing-features {
+    list-style: none;
+}
+
+.pricing-table .pricing-features {
+    margin: 0;
+    padding: 40px 0 80px;
+}
+
+.pricing-table .pricing-features .pricing-feature {
+    font-weight: 300;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.pricing-table .pricing-header i {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 80px;
+    padding-left: 5px;
+    margin-left: -40px;
+    font-size: 28px;
+    background-color: #2E62B4;
+    transform: translateY(-50%);
+}
+
+#planos p {
+    font-size: 1.5rem;
+    color: #656565;
+    font-weight: bolder;
+}
+
+.box-planos-empresa {
+    width: 45%;
+    background-color: #ffffff;
+    padding: 1.1rem;
+    margin: 0 auto;
+    display: block;
+    float: none;
+    cursor: pointer;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#plano-empresa h2 {
+    font-size: 1.7rem;
+    text-align: center;
+    color: #ba0fae;
+}
+
+/* fim da sessão dos planos */
+
+#plano-empresarial h1 {
+    /* Dagny Pro Regular */
+    font-family: ff-dagny-web-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.formulario {
+    margin-top: 5rem;
+}
+
+.btn-padrao {
+    background-color: #2E62B4;
+    color: #ffffff;
+}
+
+.background-plano-empresarial {
+    background-image: url("../images/planoEmpresa-min.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centraliza {
+    float: none;
+    margin: 0 auto !important;
+    display: block;
+}
+
+.btn-redes-sociais i{
+    color: #2E62B4;
+}
+
+.background-endereco {
+    height: 300px;
+    background-image: url("../images/endereco-min.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#gostou p {
+    font-size: 1.5rem;
+}
+
+.img-quem-gostou {
+    background-image: url("../images/gostou-min.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#endereco p {
+    /* Dagny Pro Regular */
+    font-family: ff-dagny-web-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #fff;
+    padding: 2.2rem;
+}
+
+#contato p {
+    font-size: 1.5rem;
+}
+
+.select-wrapper span.caret {
+    color: initial;
+    position: absolute;
+    right: 0;
+    top: .8rem;
+    font-size: .63rem;
+}
+
+.azul-text {
+    color: #2E62B4;
+}
+
+.titulo-area-do-cliente {
+    font-size: 2rem;
+    color: #565656;
+}
+
+.img-dispositivos {
+    max-width: 80%;
+}
+
+.margin-lateral-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#areaDoCliente h1 {
+    /* Dagny Pro Regular */
+    font-family: ff-dagny-web-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.cyan.darken-3 {
+    background-color: #2e62b4 !important;
+}
+
+.btn-areaDoCliente {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#documentos-clientes h1, h2{
+    /* Dagny Pro Regular */
+    font-family: ff-dagny-web-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#documentos-clientes h2 {
+    font-size: 1.2rem;
+}
+
+#tutorial h1,
+#tutorial h2 {
+    font-family: ff-dagny-web-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#tutorial h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    background-color: #254e90;
+}
+
+.img-planos {
+    width: 70%;
+    display: block;
+    float: none;
+    margin: 0 auto;
+}
+
+/* responsive desktop */
+@media (min-width: 901px) and (max-width: 1366px) {
+    .background_inicial {
+        background-image: url('../images/banner/banner_inicial_1366-min.png');
+        background-position: center;
+        background-size: auto;
+    }
+}
+
+/*Responsive mobile*/
+@media (max-width: 900px){
+    .background_inicial {
+        background-image: url('../images/banner/banner_inicial_750x1334-min.png');
+        background-position: center;
+    }
+}
